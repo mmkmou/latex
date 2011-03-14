@@ -1,0 +1,83 @@
+\documentclass[a4paper,12pt]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphics}
+
+
+\begin{document}
+	\part{Alignement}
+		\section{alignement gauche}
+	\begin{flushleft}
+		alignement à gauche \\ 		alignement à gauche \\ 		alignement à gauche \\ 		alignement à gauche \\ 		alignement à gauche \\ 		alignement à gauche \\ 		alignement à gauche \\
+	\end{flushleft}
+		\section{alignement droite}	
+	\begin{flushright}
+		alignement à droire \\  		alignement à droire \\ 		alignement à droire \\ 		alignement à droire \\ 		alignement à droire \\ 		alignement à droire \\
+	\end{flushright}
+		\section{centrer un texte}
+	\begin{center}
+			texte centré \\ 			texte centré \\ 			texte centré \\ 			texte centré \\
+	\end{center}
+	
+	\part{police - style }
+	
+	\section{gras}
+	
+	\textbf{Si ma présentation est bonne je dois apparaitre en gras}	\\
+	
+	\begin{bf}
+		Ce texte seras aussi en gras mais avec un autre syntaxe 
+	\end{bf} \\
+	
+	{\bf encore une autre maniére de mettre un text en gras} \\
+	
+	Ce n'est pas bon \LaTeX{} \\
+	
+	\section{Taille}
+	
+	\begin{tiny}
+		{\normalsize Voici} ce qu'il ne faut {\Huge surtout} pas 
+		faire {\Large pour {\footnotesize rendre} un texte 
+		lisible}
+	\end{tiny}
+	
+	\begin{section}
+		Nous allons créer une liste avec puce et une liste numérotée 
+		{\center Liste avec Puce}
+		\begin{itemize} 
+			\item Premier item 
+			\item deuxiéme item
+			\item troisieme item 
+		\end{itemize}
+				{\center Liste numérotée }
+		\begin{enumerate} 
+			\item Premier item 
+			\item deuxiéme item
+			\item troisieme item 
+		\end{enumerate}
+	\end{section}
+	
+	\part{Insertion Image}
+		\section{Image sans légende}
+		
+		\paragraph{image 1}
+		Pour insérer une image il faut faire appel au package graphics et utiliser la commande \verb? includegraphics[option]{image} ? \\ 
+		
+		\includegraphics{dakarlug} \\
+		
+		
+		
+	\part{Tableau}
+	
+	\begin{tabular}{|c | c | c |}
+		\hline
+		l1 col1 & l1 col2 & l1 col 3 \\
+		\hline
+		l2 col1 & l2 col2 & l2 col 3 \\
+		\hline
+		l3 col1 & l3 col2 & l3 col 3 \\
+		\hline
+	\end{tabular}
+	
+
+\end{document}
