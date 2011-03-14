@@ -1,0 +1,35 @@
+LaTeX 
+
+==========================================================================
+
+Le Document :
+--------------
+Ce document est le slideque j'ai eu à utiliser lors de ma présentation sur LaTeX
+durant les Journées Libres de la francophonie le 11 & 12 Mars 2011 à AUF - Bureau de l'afrique de l'ouest 
+
+Comment l'utiliser :
+--------------------
+
+Pour l'utiliser c'est trés simple il suffit d'avoir une distribution LaTeX instalé sur son ordianteur
+Si vous êtes sous windows vous pouvez utiliser Protex ou Miktex 
+Si vous êtes sous Gnu/Linux vous pouvez utiliser TeTex ou Texlive
+Pour ceux qui utilisent MacOS il y'a MacTex. 
+
+Aprés installation de votre distribution faite les commandes suivantes avec la ligne de commande 
+ou utiliser votre IDE préféré : 
+
+latex latex.tex
+puis 
+ps2pdf latex.ps 
+
+
+Licence :
+----------
+
+Ce document est sous Licence Creative Commons BY-NC-SA. 
+
+
+CONTRIBUTION :
+--------------
+Pour contribuez c'est simple : faites un FORK puis faite vos modifications. Quand vous aurez fini faite une "DEMANDE de PULL" pour partager 
+ 
